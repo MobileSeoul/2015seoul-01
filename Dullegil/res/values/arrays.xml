@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_icon">
+        <item>navi_icon_1</item>
+        <item>navi_icon_2</item>
+        <item>navi_icon_3</item>
+        <item>navi_icon_4</item>
+        <item>navi_icon_5</item>
+        <item>navi_icon_6</item>
+        <item>navi_icon_7</item>
+        <item>navi_icon_8</item>
+        <item>navi_icon_9</item>
+    </string-array>
+    <string-array name="course1">
+        <item>one_courseinfo</item>
+        <item>one_spot</item>
+        <item>one_stamp</item>
+        <item>one_traffic</item>
+    </string-array>
+    <string-array name="course2">
+        <item>two_courseinfo</item>
+        <item>two_spot</item>
+        <item>two_stamp</item>
+        <item>two_traffic</item>
+    </string-array>
+    <string-array name="course3">
+        <item>three_courseinfo</item>
+        <item>three_spot</item>
+        <item>three_stamp</item>
+        <item>three_traffic</item>
+    </string-array>
+    <string-array name="course4">
+        <item>four_courseinfo</item>
+        <item>four_spot</item>
+        <item>four_stamp</item>
+        <item>four_traffic</item>
+    </string-array>
+    <string-array name="course5">
+        <item>five_courseinfo</item>
+        <item>five_spot</item>
+        <item>five_stamp</item>
+        <item>five_traffic</item>
+    </string-array>
+    <string-array name="course6">
+        <item>six_courseinfo</item>
+        <item>six_spot</item>
+        <item>six_stamp</item>
+        <item>six_traffic</item>
+    </string-array>
+    <string-array name="course7">
+        <item>seven_courseinfo</item>
+        <item>seven_spot</item>
+        <item>seven_stamp</item>
+        <item>seven_traffic</item>
+    </string-array>
+    <string-array name="course8">
+        <item>eight_courseinfo</item>
+        <item>eight_spot</item>
+        <item>eight_stamp</item>
+        <item>eight_traffic</item>
+    </string-array>
+    <string-array name="stamp">
+        <item>stamp_one</item>
+        <item>stamp_one_1</item>
+        <item>default_one_2</item>
+        <item>default_one_3</item>
+        <item>stamp_two</item>
+        <item>default_two_1</item>
+        <item>default_two_2</item>
+        <item>default_two_3</item>
+        <item>stamp_three</item>
+        <item>default_three_1</item>
+        <item>default_three_2</item>
+        <item>default_three_3</item>
+        <item>default_three_4</item>
+        <item>stamp_four</item>
+        <item>default_four_1</item>
+        <item>default_four_2</item>
+        <item>default_four_3</item>
+        <item>stamp_five</item>
+        <item>default_five_1</item>
+        <item>default_five_2</item>
+        <item>default_five_3</item>
+        <item>stamp_six</item>
+        <item>default_six_1</item>
+        <item>default_six_2</item>
+        <item>default_six_3</item>
+        <item>stamp_seven</item>
+        <item>default_seven_1</item>
+        <item>default_seven_2</item>
+        <item>default_seven_3</item>
+        <item>stamp_eight</item>
+        <item>default_eight_1</item>
+        <item>default_eight_2</item>
+        <item>default_eight_3</item>
+        <item>default_eight_4</item>
+        <item>default_eight_5</item>
+        <item>default_eight_6</item>
+    </string-array>
+</resources>

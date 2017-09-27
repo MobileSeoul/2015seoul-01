@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/map_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <floatingactionbutton.FloatingActionButton
+            android:id="@+id/stampButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_add"
+            android:layout_above="@+id/convenientButton"
+            android:layout_alignParentEnd="true"
+            fab:fab_colorNormal="#009688"
+            fab:fab_colorPressed="#26a69a" />
+        
+        <floatingactionbutton.FloatingActionButton
+            android:id="@+id/convenientButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_add"
+            android:layout_above="@+id/myLocationButton"
+            android:layout_alignParentEnd="true"
+            fab:fab_colorNormal="#009688"
+            fab:fab_colorPressed="#26a69a" />
+        
+          <floatingactionbutton.FloatingActionButton
+            android:id="@+id/myLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rootButton"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_add"
+            fab:fab_colorNormal="#009688"
+            fab:fab_colorPressed="#26a69a" />
+        
+         <floatingactionbutton.FloatingActionButton
+            android:id="@+id/rootButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_add"
+            fab:fab_colorNormal="#009688"
+            fab:fab_colorPressed="#26a69a" />
+    </RelativeLayout>
+
+</FrameLayout>

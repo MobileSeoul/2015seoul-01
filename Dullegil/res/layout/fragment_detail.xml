@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"  >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="370dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"/>
+            
+            <TextView 
+                android:id="@+id/tvTotalPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@+id/imageView"
+                android:text="총 5개의 주요거점이 있습니다."
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
+
+
+
+            <ImageView
+                android:id="@+id/iconCourseNavi"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="18dp" />
+
+            <TextView
+                android:id="@+id/tvNaviLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/iconCourseNavi"
+                android:text="서울시 도봉구"
+                android:textColor="#ff282828"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvImageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNaviLocation"
+                android:layout_toRightOf="@+id/iconCourseNavi"
+                android:text="서울창포원"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/stampImageView"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignBottom="@+id/tvImageTitle"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tvImageTitle" />
+
+            <ImageView
+                android:id="@+id/iconDetailNext"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="27dp"
+                android:src="@drawable/next_icon" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iconCourseNavi"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:id="@+id/tvDetailSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvImageTitle"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="10dip"
+                android:layout_marginBottom="80dp"
+                android:text="총면적 52,417m2에 꽃창포를 비롯한 붓꽃을 주제로 한 서울시의 생태공원으로서 12개의 테마로 구분 조성되어 시민들에게 생태교육 및 여가와 휴식공간을 제공합니다." />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
